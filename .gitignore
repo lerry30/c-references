@@ -1,0 +1,26 @@
+# Ignore object files
+*.o
+
+# Ignore binary files
+*.bin
+
+# Ignore hex files
+*.hex
+
+# Ignore build directories
+build/
+bin/
+obj/
+
+# Ignore other common build outputs
+*.exe
+*.out
+*.lib
+*.a
+*.so
+*.dylib
+
+# CMake build artifacts
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
