@@ -30,3 +30,20 @@ Digit controls(switches) not require additional components so just connect
 it to digital pins on arduino.
 
 ![My 4 digit 7 segment LED display setup](circuit.png)
+
+To try the program run the following commands:
+
+ - **Compile
+```bash
+make
+```
+
+ - **Upload to Arduino Uno Board
+```bash
+make flash
+```
+
+ - **Clean
+```bash
+make clean
+```
