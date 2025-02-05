@@ -33,17 +33,17 @@ it to digital pins on arduino.
 
 To try the program run the following commands:
 
- - **Compile
+1. Compile
 ```bash
 make
 ```
 
- - **Upload to Arduino Uno Board
+2. Upload to Arduino Uno Board
 ```bash
 make flash
 ```
 
- - **Clean
+3. Clean
 ```bash
 make clean
 ```
