@@ -2,7 +2,7 @@
 
 It is only intended for 4 digit display. I've a cathode display,
 since LED display has two main types, anode and cathode. Using
-anode, current flows from positive while the cathode is the opposite 
+anode current flows from positive while the cathode is the opposite 
 which used ground to turn LEDs on, so it means it is a way to identify
 how the LED could be turn on.
 

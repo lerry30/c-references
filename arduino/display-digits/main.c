@@ -52,13 +52,13 @@ uint8_t segment[10][7] = {
 };
 
 void init_dr(void) {
-    // 1. 5  - A - PD5
-    // 2. 12 - B - PB4
-    // 3. 10 - C - PD7
-    // 4. 4  - D - PD4
-    // 5. 3  - E - PD3
-    // 6. 6  - F - PD6
-    // 7. 11 - G - PB3
+    // 1. pin5  - A - PD5
+    // 2. pin12 - B - PB4
+    // 3. pin10 - C - PD7
+    // 4. pin4  - D - PD4
+    // 5. pin3  - E - PD3
+    // 6. pin6  - F - PD6
+    // 7. pin11 - G - PB3
 
     DDRD |= (1 << DDD5);
     DDRB |= (1 << DDB4);
@@ -68,7 +68,7 @@ void init_dr(void) {
     DDRD |= (1 << DDD6);
     DDRB |= (1 << DDB3);
 
-    DDRD |= (1 << DDD2); // decimal point
+    DDRD |= (1 << DDD2); // decimal point pin2
 
     DDRB |= (1 << DDB0); // D1 - pin8
     DDRB |= (1 << DDB1); // D2 - pin9
