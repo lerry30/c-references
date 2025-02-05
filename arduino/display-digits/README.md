@@ -1,5 +1,7 @@
 ### Simple Guide for 4 digit 7 segment LED Display
 
+![My actual LED display](actual.jpg)
+
 It is only intended for 4 digit display. I've a cathode display,
 since LED display has two main types, anode and cathode. Using
 anode current flows from positive while the cathode is the opposite 
