@@ -26,7 +26,7 @@ there segments also on.
 Keep in mind to include resistors around 200 to 1k ohms to ensure LEDs
 will not blow up.
 
-Digit switch not require additional components so just connect it to
-designated digital pins on arduino.
+Digit controls(switches) not require additional components so just connect 
+it to digital pins on arduino.
 
 ![My 4 digit 7 segment LED display setup](circuit.png)
