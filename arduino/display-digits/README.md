@@ -6,6 +6,8 @@ anode current flows from positive while the cathode is the opposite
 which used ground to turn LEDs on, so it means it is a way to identify
 how the LED could be turn on.
 
+![4 digit 7 segment guide](4d7seg.jpg)
+
 Displaying numbers require knowledge on which pin is which. In this case 
 the 4 digit display has 12 pins. Each pins designated to corresponding
 segment or switch. Thereby understanding each of them makes thing
