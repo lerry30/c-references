@@ -29,6 +29,4 @@ will not blow up.
 Digit switch not require additional components so just connect it to
 designated digital pins on arduino.
 
-
-
-
+![My 4 digit 7 segment LED display setup](circuit.png)
