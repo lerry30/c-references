@@ -17,8 +17,8 @@ Make sure the root directory contains Makefile.
 
 Arduino's microcontroller(ATmega328p) uses ports to send signals for pins and allow
 interaction on its outside world. It has 3 Ports Port D, B and C which is 8 bit regiter
-each. It has 32 general purpose registers. It has 14 digital I/O pins, 6 analog inputs, 
-and powered by a 16MHz crystal oscillator.
+each. It has 32 general purpose registers. It also consists of 14 digital I/O pins, 6 
+analog inputs, and powered by a 16MHz crystal oscillator.
 
 Pins has corresponding bit in microcontrollers. So handling microcontroller's regiters
 are necessary to send signals to pins.
