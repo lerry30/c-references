@@ -5,4 +5,6 @@ that allows analog input from potentiometer converted to digital(ADC)
 value. The value will control the brightness of LED by twisting potentiometer
 clock wise or counter clock wise to increase and decrease its brightness.
 
-![Potentiometer Circuit](circuit.jpg)
+![Actual Potentiometer Circuit](actual.jpg)
+
+![Potentiometer Circuit Diagram](circuit.png)
