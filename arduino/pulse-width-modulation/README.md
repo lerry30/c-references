@@ -13,9 +13,11 @@ a mini board and achieving such function requires external hardware so the analo
 saying is similar to frequency. It is called PWM(Pulse Width Modulation) where the digital 
 value will be converted to frequency so it generates pulses like square waves. Thereby the 
 value it gets the longer that pulse will stay on high state. So it means that it is all based 
-on time by turning device on and off. It is quite hard for human eye to perceive this trick 
-because it happens in milliseconds. Additionally identifying these pins is really easy since 
-they have (~) sign in front of their pin number.
+on time by turning device on and off depends on frequency on high speed to achieve the illusion 
+that device continously gets power base on user control like dimming an LED or control motor
+speed. It is quite hard for human eye to perceive this trick because it happens in milliseconds. 
+Additionally identifying these pins is really easy since they have (~) sign in front of their 
+pin number.
 
 ```c
 TCCR2A = 0;
