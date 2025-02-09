@@ -7,7 +7,7 @@ DDRB |= (1 << DDB3);
 ```
 
 This is pin 11 in digital pins. This kind of pin is different from other pins(I/O) since 
-it has additional feature of converting digital value to analog like, working with current 
+it has additional feature of converting digital value to analog like working with current 
 by controlling its voltage like voltage regulator is not possible here since it is just 
 a mini board and achieving such function requires external hardware so the analog that I'm 
 saying is similar to frequency. It is called PWM(Pulse Width Modulation) where the digital 
