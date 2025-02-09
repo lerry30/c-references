@@ -19,6 +19,8 @@ speed. It is quite hard for human eye to perceive this trick because it happens 
 Additionally identifying these pins is really easy since they have (~) sign in front of their 
 pin number.
 
+![PWD](pwd.jpg)
+
 ```c
 TCCR2A = 0;
 TCCR2B = 0;
