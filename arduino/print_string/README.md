@@ -14,8 +14,8 @@ identifying the baud size with 16Mhz clock speed is essential
 for defining serial communication size and speed.
 
 ```c
-    UBRR0H = (unsigned char)(ubrr >> 8);
-    UBRR0L = (unsigned char)ubrr;
+UBRR0H = (unsigned char)(ubrr >> 8);
+UBRR0L = (unsigned char)ubrr;
 ```
 
 Lets say the above computation is 16000000/(16*9600)-1 = 130,

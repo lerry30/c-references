@@ -8,5 +8,6 @@ void adc_init() {
 uint16_t adc_read() {
     ADCSRA |= (1 << ADSC);  // Start conversion
     while (ADCSRA & (1 << ADSC));  // Wait for conversion to complete
+    
     return ADC;  // Return 10-bit result
 }
