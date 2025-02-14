@@ -1,3 +1,7 @@
+Rotating Servo
+
+![Actual Servo Setup](actual.jpg)
+
 Every pins with corresponding sign(~) in fron of number in arduino's digital pins
 are connected to specific timer's output compare register.
 
